@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+dist
+build
+*.egg
+*.log
+*.tmp
+*.bak
+*.swp
+*.vscode
+__pycache__
+venv/
+.pytest_cache/
+*.pdf
+
