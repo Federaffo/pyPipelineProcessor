@@ -34,3 +34,5 @@ Il progetto implementa un sistema di pipeline modulare per l'elaborazione del te
 **Note**
 Ho deciso di passare i moduli disponibili come parametro alla classe `Pipeline` in quanto permette di utilizzare il modulo `Pipeline` come libreria senza che tutti i moduli custom siano definiti al suo interno.
 Una possibile alternativa è quella di importare dinamicamente i moduli custom tramite `importlib`, ma questo vorrebbe dire indicare il path completo del modulo custom nel file YAML, il che non è desiderabile.
+
+Nel file main.py c'è un esempio di esecuzione della pipeline con configurazione .yaml
